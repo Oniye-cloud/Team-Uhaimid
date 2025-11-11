@@ -1,0 +1,430 @@
+body {
+    background-image: url(./feeding.jpg);
+    background: fixed;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+  }
+  nav{
+    background:  rgb(114, 1, 26); 
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .teambracket{
+    width: 150px;
+    height: 90px;
+    margin-left: 25px;
+  }
+  ul{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: -200px;
+    padding-left: 60px;
+  }
+  li{
+    display: inline;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+  }
+  a:hover{
+    transition: all 900ms ease-in-out;
+    color: rgb(253, 137, 4);
+  }
+  .donate{
+    width: 120px;
+    height: 6vh;
+    margin-top: 24px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 4px solid rgb(253, 137, 4);
+    font-size: 15px;
+  }
+  .login{
+    width: 120px;
+    height: 6vh;
+    margin-top: 24px;
+    margin-left: -330px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 4px solid rgb(253, 137, 4);
+    font-size: 15px;
+  }
+  .donate:hover{
+    transition: all 1s ease-in;
+    color: blue;
+    background-color: white;
+  }
+  .login:hover{
+    transition: all 1s ease-in;
+    color: blue;
+    background-color: white;
+  }
+  .hunger{
+    height: 100vh;
+    background-image: url(./poor1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .h1{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 250px;
+    color: white;
+    font-family: monospace;
+  }
+  .span1{
+    color: rgb(253, 137, 4);
+  }
+  h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+  }
+  .button{
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 15px;
+    background-color:rgb(253, 137, 4);
+    width: 160px;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+  }
+  .more{
+    text-align: center;
+    background-color:rgb(253, 137, 4);
+    width: 160px;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+  }
+  .what{
+    height: 90vh;
+    background-color: white;
+  }
+  .sech{
+    text-align: center;
+    margin-top: 30px;
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .first{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+  }
+  .second{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .note1{
+    width: 40%;
+    height: 20vh;
+  }
+  h2{
+    font-size: 45px;
+  }
+  p{
+    font-size: 25px;
+  }
+  .img2{
+    height: 30vh;
+    width: 40%;
+    margin-right: 30px;
+  }
+  .img20{
+    width: 700px;
+    height: 40vh;
+    
+  }
+  .note2{
+    width: 40%;
+    height: 20vh;
+  }
+  .dh1{
+    text-align: center;
+    
+  }
+  .img-two{
+    background-image: url(./feeding.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 160px;
+    background-attachment: fixed;
+  }
+  .trans{
+    background-color: transparent;
+    padding-top: 50px;
+  }
+  .container{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .producer{
+    width: 280px;
+    height: 40vh;
+    margin-left: 80px;
+  }
+  .donation{
+    width: 280px;
+    height: 40vh;
+    margin-left: 80px;
+  }
+  .resturant{
+    width: 280px;
+    height: 40vh;
+    margin-left: 80px;
+  }
+  .div1{
+    border: 4px solid white;
+    width: 32%;
+    height: 60vh;
+    margin-right: 20px;
+  }
+  .div2{
+    border: 4px solid white;
+    width: 32%;
+    height: 60vh;
+  }
+  .div3{
+    border: 4px solid white;
+    width: 32%;
+    height: 60vh;
+    margin-left: 20px;
+  }
+  h3{
+    text-align: center;
+  }
+  .camp{
+    width: 200px;
+    padding: 1.5vh;
+    margin-left: 140px;
+    background-color: rgb(48, 48, 48);
+    border: 3px solid rgba(255, 208, 0, 0.781);
+    color: white;
+    font-size: 15px;
+  }
+  .don{
+    width: 200px;
+    padding: 1.5vh;
+    margin-left: 140px;
+    margin-top: -60px;
+    background-color: rgb(48, 48, 48);
+    border: 3px solid rgba(255, 208, 0, 0.781);
+    color: white;
+    font-size: 15px;
+  }
+  .reg{
+    width: 150px;
+    padding: 1.5vh;
+    margin-left: 140px;
+    margin-top: -60px;
+    background-color: rgb(48, 48, 48);
+    border: 3px solid rgba(255, 208, 0, 0.781);
+    color: white;
+    font-size: 15px;
+  }
+  .projects{
+    background-color: white;
+    height: 90vh;
+    align-items: center;
+  }
+  .ph2{
+    text-align: center;
+    font-size: 50px;
+  }
+  hr{
+    width: 80%;
+    margin: auto;
+  }
+  .container2{
+    display: flex;
+    margin: auto;
+  }
+  .security{
+    width: 28%;
+    height: 70vh;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+  .beting{
+    width: 28%;
+    height: 70vh;
+    margin-top: 30px;
+  }
+  .coro{
+    width: 28%;
+    height: 70vh;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+  }
+  .sec{
+    width: 400px;
+    height: auto;
+    margin: auto;
+  }
+  .beating{
+    width: 400px;
+    height: auto;
+    margin: auto;
+  }
+  .fighting{
+    width: 400px;
+    height: auto;
+    margin: auto;
+  }
+  .sh3{
+     font-size: 25px;
+     color: black;
+     text-align: left;
+  }
+  .text{
+    font-size: 20px;
+    text-align: left;
+  }
+  .read{
+    width: 160px;
+    padding: 1.5vh;
+    background-color: rgb(48, 48, 48);
+    border: 3px solid rgba(255, 208, 0, 0.781);
+    color: white;
+    font-size: 15px; 
+  }
+  .team{
+    background-image: url(./feeding.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+  }
+  .our{
+    width: 40%;
+    height: 60vh;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .td2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+  }
+  .th3{
+    text-align: center;
+    color: white;
+  }
+  .tp{
+    color: white;
+     text-align: center;
+  }
+  .ibrahim{
+    width: 200px;
+    margin-left: 140px;
+    border-radius: 50px;
+  }
+  .about{
+    background-color: rgb(76, 90, 125);
+    height: 60vh;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+  }
+  .ah2{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(255, 249, 249);
+  }
+  .brac{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(175, 174, 174);
+  }
+  .us{
+    width: 30%;
+    height: 40vh;
+    margin-left: 120px;
+    margin-top: 80px;
+  }
+  .ul1{
+    display: inline;
+    
+  }
+  .list{
+    display: block;
+    margin-top: -15px;
+  }
+  .list1{
+    display: block;
+    margin-top: 8px;
+  }
+  .list2{
+    display: block;
+    margin-top: 8px;
+  }
+  .list3{
+    display: block;
+    margin-top: 8px;
+  }
+  .list4{
+    display: block;
+    margin-top: 8px;
+  }
+  .list5{
+    display: block;
+    margin-top: 8px;
+    color: rgb(175, 174, 174);
+  }
+  .list6{
+    display: block;
+    margin-top: 8px;
+    color: rgb(175, 174, 174);
+  }
+
+  .aa{
+    text-decoration: none;
+    outline: none;
+    color: rgb(175, 174, 174);
+    display: contents;
+  }
+ .detail{
+  width: 30%;
+  height: 40vh;
+  margin-top: 20px;
+  margin-left: -70px;
+ }
+ footer{
+   background-color: black;
+   height: 10vh;
+   width: 100%;
+ }
+ .footerp{
+  text-align: center;
+  color: aliceblue;
+  margin: auto;
+  padding-top: 20px;
+  color:rgb(175, 174, 174);
+  font-size: 15px;
+ }
